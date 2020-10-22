@@ -1,0 +1,81 @@
+.{
+  box-sizing: border-box;
+}
+body{
+  background-color: #868ca0;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  margin: 0 auto; 
+}
+h1{
+  margin-bottom: 0; 
+}
+h1 + p{
+  margin-top: 0;
+}
+form{
+  background-color: #ae63e4;
+  max-width: 450px;
+  margin: 40px Auto;
+  border-radius: 4px;
+  padding: 50px 50px;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.8);  
+  background-clip: padding-box;
+}
+.form-control{
+ text-align: left; 
+  margin-bottom: 20px; 
+}
+
+form-control label{
+ margin-bottom: 6px;
+  display: block;
+}
+
+.form-control input, .form-control select, .form-control textarea {
+ display: block;
+ padding: 12px;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid #777;
+  width: 100%;
+  resize: vertical;
+}
+
+.col-75 {
+  float: left;
+  width: 106%;
+  /*margin-top: 6px;*/
+}
+/*.form-control select{
+ display: block;
+ padding: 10px;
+ font-family: inherit;
+ font-size: 16px;
+ border-radius: 2px;
+ border: 1px solid #777;
+ width: 100%;
+}*/
+
+.form-control input[type="radio"], .form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+button{
+  background-color: #777;
+ display: block;
+ padding: 12px;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid #777;
+  width: 106%; 
+}
+.thisfooter{
+  font-family: inherit;
+  text-align: right;
+  font-size: 10px;
+  color: red;
+}
